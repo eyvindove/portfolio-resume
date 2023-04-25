@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Montserrat', system-ui, sans-serif;
+  }
+
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .greeting-text {
+    @apply text-[24px]
+      md:text-[28px]
+      lg:text-[32px];
+  }
+
+  .greeting-highlight-text {
+    @apply text-teal-500 text-[28px]
+    md:text-[32px]
+    lg:text-[36px];
+  }
+}
