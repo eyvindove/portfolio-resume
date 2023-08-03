@@ -6,23 +6,27 @@ import type { SkillConfigObject, SkillConfig } from '@/_types'
 
 const skillConfig: SkillConfig = {
   frontend: [
-    { name: 'React.js', rank: 85 },
-    { name: 'Vue.js', rank: 85 },
-    { name: 'JavaScript', rank: 85 },
-    { name: 'TypeScript', rank: 75 },
+    { name: 'React.js', rank: 90 },
+    { name: 'Next.js', rank: 65 },
+    { name: 'Vue.js', rank: 90 },
+    { name: 'JavaScript', rank: 90 },
+    { name: 'TypeScript', rank: 82 },
     { name: 'Node.js', rank: 65 },
     { name: 'TailwindCSS', rank: 80 },
     { name: 'SCSS', rank: 80 },
-    { name: 'Styled-Comp.', rank: 65 },
+    { name: 'CSS Modules', rank: 80 },
     { name: 'RWD', rank: 77 },
+    { name: 'Jest', rank: 60 },
+    { name: 'React Testing Library', rank: 60 },
   ],
   developmentTool: [
-    { name: 'Vite', rank: 75 },
+    { name: 'Vite', rank: 83 },
     { name: 'Webpack', rank: 70 },
     { name: 'npm', rank: 80 },
     { name: 'pnpm', rank: 80 },
     { name: 'yarn', rank: 80 },
-    { name: 'Shell Script', rank: 50 },
+    { name: 'Docker', rank: 40 },
+    { name: 'Shell Script', rank: 60 },
   ],
 }
 
