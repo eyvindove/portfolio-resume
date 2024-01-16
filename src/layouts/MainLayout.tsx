@@ -6,7 +6,7 @@ const MainLayout = () => {
     <div
       className={clsx(
         'overflow-x-hidden overflow-y-auto',
-        'bg-zinc-100',
+        'bg-zinc-50',
         'dark:bg-zinc-800'
       )}
     >

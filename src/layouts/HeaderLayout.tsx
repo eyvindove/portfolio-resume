@@ -7,7 +7,7 @@ const HeaderLayout = () => {
       className={clsx(
         'sticky top-0 z-10',
         'flex items-center justify-between shadow-md shadow-slate-900/50',
-        'bg-zinc-300 px-2 transition-all',
+        'bg-zinc-200 px-4 transition-all',
         'dark:bg-zinc-900 dark:shadow-cyan-900/50'
       )}
     >

@@ -58,7 +58,9 @@ const ExperienceCard = memo(({ experience, children }: ExperienceCardProps) => {
               {experience.duration}
             </div>
             {experience.description && (
-              <div className={clsx('py-4')}>{experience.description}</div>
+              <div className={clsx('py-4 whitespace-pre-line')}>
+                {experience.description}
+              </div>
             )}
 
             {children}

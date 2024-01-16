@@ -5,8 +5,8 @@ import HashLinkMenu from '@/features/HashLinkMenu'
 export default function HeaderContainer() {
   return (
     <>
-      <div>
-        {import.meta.env.VITE_FULL_NAME} ({import.meta.env.VITE_AKA})
+      <div className={clsx('font-bold text-zinc-800', 'dark:text-zinc-100')}>
+        {import.meta.env.VITE_FULL_NAME}
       </div>
 
       <div className={clsx('flex items-center gap-2')}>

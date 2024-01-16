@@ -84,8 +84,8 @@ const GreetingSection = memo(() => {
 
       <div className={clsx('flex flex-col gap-2', 'text-lg', 'lg:text-xl')}>
         <div>
-          Experienced software developer with 3+ years of experience as frontend
-          web developer.
+          Seasoned software developer with 3+ years of experience as frontend
+          developer.
         </div>
         <div>
           Have enthusiasm and curiosity in modern technologies. Passionate about
